@@ -1,10 +1,6 @@
 Description of Task completed
 
--Added background gradient color
--Create container for card
--Split card into left and right cards
--Added text for left card
--Added form component for right card
+-Added styling to left side of card
 
 
 How should this be manually tested?
