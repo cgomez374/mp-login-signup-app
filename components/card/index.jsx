@@ -12,16 +12,20 @@ export default function Index() {
                 </div>
             </div>
             <div className={styles.cardRight}>
-                <h4>sign in</h4>
-                <p>new to register? <a href="#">sign up</a></p>
-                <ul>
-                    <li>g</li>
-                    <li>l</li>
-                    <li>git</li>
-                    <li>f</li>
+                <div className={styles.cardRightText}>
+                    <h2>sign in</h2>
+                    <p>new to register?<a href="#"> sign up</a></p>
+                </div>
+                <ul className={styles.socialMedia}>
+                    <li><img src="./google.png" alt="icon" /></li>
+                    <li><img src="./linkin.png" alt="icon" /></li>
+                    <li><img src="./github.png" alt="icon" /></li>
+                    <li><img src="./facebook.png" alt="icon" /></li>
                 </ul>
-                <div>
-                    <p><span><hr /></span> or <span><hr /></span></p>
+                <div className={styles.mid}>
+                    <div className={styles.line}></div>
+                    <p>or</p>
+                    <div className={styles.line}></div>
                 </div>
                 <Form />
             </div>
