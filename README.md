@@ -1,6 +1,7 @@
 Description of Task completed
 
--Added styling to left side of card
+-Fixed Styling on left side of card
+-added background to right side of card
 
 
 How should this be manually tested?

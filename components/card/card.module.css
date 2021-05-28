@@ -2,13 +2,13 @@
     width: 100%;
     height: 100%;
     border: none;
-    border-radius: 20px;
     display: flex;
     flex-direction: row;
 }
-
 .cardLeft {
     background-color: #151371;
+    background-image: url('/card-right-background.png');
+    background-size: contain;
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
@@ -16,8 +16,8 @@
     width: 50%;
     height: 100%;
     padding: 10px;
-    border: none;
-    border-radius: 20px;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
     color: #fff;
 }
 .cardLeft h1 {
@@ -27,22 +27,27 @@
     font-size: 1.5rem;
     line-height: 1.5;
 }
-
 .innerText {
     width: 80%;
     padding: 30px;
     margin: 0 auto;
     text-align: center;
 }
-
-.cardLeft img {
+.cardLeftLogo{
+    background-color: red;
     width: 10%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+.cardLeft img {
+    width: 100%;
     height: auto;
 }
 .cardRight {
     width: 50%;
     height: 100%;
-    padding: 20px;
+    padding: 2vh 7vh 7vh 7vh;
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
@@ -50,24 +55,22 @@
     text-transform: capitalize;
 }
 .cardRightText {
-    /* background-color: red; */
     width: 100%;
     height: auto;
+    margin-bottom: 1vh;
     padding: 0;
     display: flex;
     flex-direction: column;
     text-align: start;
 }
 .cardRightText h2 {
-    /* background-color: royalblue; */
-    margin: 0;
+    font-size: 2.5rem;
+    margin: 0 0 1vh 0;
 }
 .cardRightText p {
     color: #B9BCC1;
-    /* background-color: green; */
 }
 .socialMedia {
-    /* background-color: red; */
     width: 50%;
     display: flex;
     flex-direction: row;

@@ -5,7 +5,9 @@ export default function Index() {
     return(
         <div className={styles.cardContainer}>
             <div className={styles.cardLeft}>
-                {/* <img src="./mp-icon.png" alt="icon" /> */}
+                <div className={styles.cardLeftLogo}>
+                    <img src="./mp-icon.png" alt="icon" />
+                </div>
                 <div className={styles.innerText}>
                     <h1>welcome back</h1>
                     <p>To keep connecting with us please <br /> register with your perfonal info</p>
