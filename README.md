@@ -1,7 +1,7 @@
 Description of Task completed
 
--Fixed Styling on left side of card
--added background to right side of card
+-Added MPA LOGO with styling
+-Added 'X' icon
 
 
 How should this be manually tested?

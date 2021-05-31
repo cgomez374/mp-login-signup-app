@@ -5,16 +5,19 @@ export default function Index() {
     return(
         <div className={styles.cardContainer}>
             <div className={styles.cardLeft}>
-                <div className={styles.cardLeftLogo}>
-                    <img src="./mp-icon.png" alt="icon" />
-                </div>
-                <div className={styles.innerText}>
-                    <h1>welcome back</h1>
-                    <p>To keep connecting with us please <br /> register with your perfonal info</p>
+                <div className={styles.contentContainer}>
+                   <div className={styles.cardLeftLogo}>
+                        <img src="./mp-icon.png" alt="icon" />
+                    </div>
+                    <div className={styles.innerText}>
+                        <h1>welcome back</h1>
+                        <p>To keep connecting with us please <br /> register with your perfonal info</p>
+                    </div> 
                 </div>
             </div>
             <div className={styles.cardRight}>
                 <div className={styles.cardRightText}>
+                    <img src="./closeIcon.png" alt="icon" />
                     <h2>sign in</h2>
                     <p>new to register?<a href="#"> sign up</a></p>
                 </div>
