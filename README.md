@@ -1,7 +1,6 @@
 Description of Task completed
 
--Added MPA LOGO with styling
--Added 'X' icon
+-Added media queries
 
 
 How should this be manually tested?

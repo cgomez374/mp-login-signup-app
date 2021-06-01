@@ -61,3 +61,23 @@
     text-transform: capitalize;
     cursor: pointer;
 }
+@media (max-width: 1300px) {
+    .container{
+        width: 100%;
+        height: auto;
+        margin: 0 auto;
+    }
+}
+@media (max-width: 1050px) {
+    .container{
+        /* width: 80%; */
+        height: auto;
+        margin: 0 auto;
+    }
+}
+@media (max-width: 650px) {
+    .container{
+        width: 100%;
+        margin: 2vh auto 0;
+    }
+}

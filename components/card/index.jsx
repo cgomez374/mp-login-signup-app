@@ -17,7 +17,9 @@ export default function Index() {
             </div>
             <div className={styles.cardRight}>
                 <div className={styles.cardRightText}>
-                    <img src="./closeIcon.png" alt="icon" />
+                    <div className={styles.imgContainer}>
+                        <img src="./closeIcon.png" alt="icon" />
+                    </div>
                     <h2>sign in</h2>
                     <p>new to register?<a href="#"> sign up</a></p>
                 </div>
