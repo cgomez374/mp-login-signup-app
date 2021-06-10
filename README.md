@@ -1,6 +1,7 @@
 Description of Task completed
 
--Added media queries
+-Added state to create a dynamic change
+of the content text when the sign in link is clicked
 
 
 How should this be manually tested?
