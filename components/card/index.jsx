@@ -15,14 +15,27 @@ export default function Index() {
 
     // const [signIn, setSignIn] = useState(false);
 
-    const handleClick = () => {
-        setCardText({
-            signIn: false,
-            h1Title: 'register for MPA',
-            h2Title: "sign up",
-            para: 'already have an account?',
-            link: 'sign in'
-        })
+    const handleClick = (event) => {
+        event.preventDefault();
+
+        if(cardText.signIn === true){
+            setCardText({
+                signIn: false,
+                h1Title: 'register for MPA',
+                h2Title: "sign up",
+                para: 'already have an account?',
+                link: 'sign in'
+            });
+        }
+        else if(cardText.signIn === false){
+            setCardText({
+                signIn: true,
+                h1Title: 'welcome back',
+                h2Title: "sign in",
+                para: 'new to register?',
+                link: 'sign up'
+            });
+        }
     }
 
     return(

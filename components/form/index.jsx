@@ -1,24 +1,17 @@
-import { useState } from 'react'
 import styles from './form.module.css'
 
 export default function Index({ signIn }){
-    /*
-        depending if the signin tag is false or true the 
-        text and input will change; need to figure how to 
-        set the text from the beginning
-    */
-
-
-    const [inputOne, setinputOne] = useState({
-        name: 'email',
-        text: 'email address'
-    });
-
     return(
         <div className={styles.container}>
+            {signIn === false ? 
+                <form className={styles.form}>
+                    <label htmlFor='name'> full name </label><br />
+                    <input type='name' name='name'/>
+                </form>
+                : null }
             <form className={styles.form}>
-                <label htmlFor={inputOne.name}> {inputOne.text} </label><br />
-                <input type={inputOne.name} name={inputOne.name}/>
+                <label htmlFor='email'> email address </label><br />
+                <input type='email' name='email'/>
             </form>
             <form className={styles.form}>
                 <label htmlFor="password">password</label><br />
@@ -28,10 +21,9 @@ export default function Index({ signIn }){
                 <p>password incorrect</p>
             </div>
             <div className={styles.buttonContainer}>
-                <p><a href="#">forgot password?</a></p>
-                <button className={styles.button} type='submit'>login</button>
+                <p><a href="#"> {signIn === false ? null : 'forgot password?'}</a></p>
+                <button className={styles.button} type='submit'> {signIn === false ? 'register' : 'login'} </button>
             </div>
-            
         </div>
     )
 }

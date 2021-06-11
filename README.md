@@ -1,7 +1,8 @@
 Description of Task completed
 
--Added state to create a dynamic change
-of the content text when the sign in link is clicked
+-Finished making log in form dynamic
+-when sign up link clicked, form changes to sign up form
+-fixed some of the height styling
 
 
 How should this be manually tested?
