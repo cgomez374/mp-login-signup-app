@@ -1,8 +1,6 @@
 Description of Task completed
 
--Finished making log in form dynamic
--when sign up link clicked, form changes to sign up form
--fixed some of the height styling
+-created new branch
 
 
 How should this be manually tested?
